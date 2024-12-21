@@ -7,7 +7,8 @@ const sequelize = new Sequelize(
   process.env.RDS_PASSWORD,
   {
     host: process.env.RDS_HOSTNAME,
-    post: process.env.RDS_PORT,
+    port:18225,
+    // post: process.env.RDS_PORT,
     dialect: "mysql",
     dialectModule: require("mysql2"), // Explicitly use mysql2 for Sequelize
   }
