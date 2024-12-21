@@ -2,12 +2,12 @@ const { Sequelize } = require("sequelize");
 require("dotenv").config(); // Load environment variables from .env file
 
 const sequelize = new Sequelize(
-  process.env.RDS_DB_NAME || 'bgv',
-  process.env.RDS_USERNAME,
-  process.env.RDS_PASSWORD,
+  "defaultdb",
+  "avnadmin",
+  password,
   {
-    host: process.env.RDS_HOSTNAME,
-    post: process.env.RDS_PORT,
+    host: "mysql-2cbbda63-chosenx-0c3a.l.aivencloud.com",
+    port:12877,
     dialect: "mysql",
     dialectModule: require("mysql2"), // Explicitly use mysql2 for Sequelize
   }
