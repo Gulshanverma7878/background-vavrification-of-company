@@ -260,7 +260,7 @@ const sendWelcomeEmail = async (email, username, password, role, id) => {
       <p>Username: ${username}</p>
       <p>Password: ${password}</p>
       <p>Role: ${role}</p>
-      <p><a href="https://dashboard.vitsinco.com/auth/login?id=${id}">Login</a></p>
+      <p><a href="https://bgverification-oua1nhhrq-gulshans-projects-a6670322.vercel.app/auth/login?id=${id}">Login</a></p>
     `,
   };
 

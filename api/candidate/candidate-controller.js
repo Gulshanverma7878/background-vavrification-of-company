@@ -144,7 +144,7 @@ const createCandidate = async (req, res) => {
     <p style="font-family: Arial, sans-serif; font-size: 16px; color: #333;">Dear ${req.body.name},</p>
     <p style="font-family: Arial, sans-serif; font-size: 16px; color: #333;">Welcome to <strong style="color: #0056b3;">Vitsinco Global Consulting Private Limited</strong></p>
     <p style="font-family: Arial, sans-serif; font-size: 16px; color: #333;">Post to your appointment in <b> ${req.body.client_id} </b>. We request you to provide the necessary information to initiate your Background Verification process.</p>
-    <p style="font-family: Arial, sans-serif; font-size: 16px; color: #333;">Kindly click on the link <a href="https://dashboard.vitsinco.com/auth/login?id=${candidateResponse.id}" style="color: #0056b3; text-decoration: none;">Login</a> to enter the necessary information for Background Verification:</p>
+    <p style="font-family: Arial, sans-serif; font-size: 16px; color: #333;">Kindly click on the link <a href="https://bgverification-oua1nhhrq-gulshans-projects-a6670322.vercel.app/auth/login?id=${candidateResponse.id}" style="color: #0056b3; text-decoration: none;">Login</a> to enter the necessary information for Background Verification:</p>
     <table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; width: 100%; max-width: 600px; font-family: Arial, sans-serif; font-size: 16px;">
       <tr style="background-color: #f8f9fa;">
         <th style="background-color: #0056b3; color: #ffffff; padding: 10px; text-align: left;">User ID</th>

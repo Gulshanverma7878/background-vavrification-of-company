@@ -61,7 +61,7 @@ const createClient = async (req, res) => {
         <p>Your account has been created successfully.</p>
         <p>Username: ${userResponse.username}</p>
         <p>Password: ${userResponse.password}</p>
-        <p><a href="https://dashboard.vitsinco.com/auth/login?id=${clientResponse.id}">Login</a></p>
+        <p><a href="https://bgverification-oua1nhhrq-gulshans-projects-a6670322.vercel.app/auth/login?id=${clientResponse.id}">Login</a></p>
       `,
     };
 
